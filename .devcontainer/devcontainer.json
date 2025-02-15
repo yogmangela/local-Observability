@@ -1,0 +1,15 @@
+{
+    "name": "Hello World Dev Container",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+      "ms-vscode.vscode-typescript-tslint-plugin"
+    ],
+    "forwardPorts": [3000],
+    "postCreateCommand": "npm install",
+    "remoteUser": "node"
+  }
